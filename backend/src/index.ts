@@ -11,7 +11,6 @@ app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
 
-
 app.get("/api/hello", (req: Request, res: Response) => {
-  res.json({message:"Hello in json"});
+  res.json({ message: "Hello in json" });
 });
